@@ -1,0 +1,9 @@
+/var/log/upordown.csv {
+    daily
+    rotate 7
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 640 pi pi
+}

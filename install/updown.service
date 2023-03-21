@@ -1,0 +1,14 @@
+/etc/systemd/system/upordown.service:
+
+# start of file
+[Unit]
+Description=Seb's Up Or Not Script
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /usr/local/bin
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
