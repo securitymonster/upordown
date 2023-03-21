@@ -15,7 +15,7 @@ ip_list = [("192.168.0.1", "Default Gateway LAN Telenet"), ("84.192.0.1", "Defau
 
 
 # Time interval to check the IP addresses in seconds
-check_interval = 10
+check_interval = 60
 
 # Output file name
 output_file = "/var/log/upornot.csv"
